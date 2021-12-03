@@ -3,5 +3,12 @@ in ← 130 142 148 147 157 160 162 160 165 164 171 169 160 165 167 195 197 193 1
 ⍝ Part one
 +/2</in
 
+⍝   2</in Compare values two by two
+⍝ +/      Count by summing
+
 ⍝ Part two
 +/2</3+/in
+
+⍝      3+/in Sum groups of three values
+⍝   2</      Compare values two by two
+⍝ +/         Count by summing
