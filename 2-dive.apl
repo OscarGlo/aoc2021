@@ -10,14 +10,14 @@ cmd ← {⍵{(⊃⍵=⍺)×48-`⎕UCS⊃⌽⍵}¨in}
 ⍝                    -48      Substract 48 to get numeric value
 ⍝          ×                  Keep values with right first char
 
-⍝ Part one
+⍝ ≡≡≡ Part one ≡≡≡
 (+/cmd 'f') × +/(cmd 'd') - cmd 'u'
 
 ⍝ (+/cmd 'f')                         Sum of forward commands
 ⍝             ×                       Times
 ⍝               +/(cmd 'd') - cmd 'u' Sum of down commands minus up commands
 
-⍝ Part two
+⍝ ≡≡≡ Part two ≡≡≡
 (+/cmd 'f') × +/(cmd 'f') × +\(cmd 'd') - cmd 'u'
 
 ⍝ (+/cmd 'f')                                       Sum of forward commands
